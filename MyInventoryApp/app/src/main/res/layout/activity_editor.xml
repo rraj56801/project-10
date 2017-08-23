@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/shade">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- name of item/s -->
+        <TextView
+            style="@style/editor_style"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/editor_name_tv"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/edit_item_name"
+            style="@style/editor_style"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:singleLine="true" />
+
+        <!-- quantity of the items -->
+        <TextView
+            style="@style/editor_style"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/editor_quantity_tv" />
+
+        <EditText
+            android:id="@+id/edit_item_quantity"
+            style="@style/editor_style"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:singleLine="true" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/editor_decrease_btn"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:layout_weight="1"
+                android:text="@string/editor_decrease_btn" />
+
+            <Button
+                android:id="@+id/editor_increase_button"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:layout_weight="1"
+                android:text="@string/editor_increase_btn" />
+
+        </LinearLayout>
+
+        <!-- price of the single item -->
+        <TextView
+            style="@style/editor_style"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/editor_price_tv" />
+
+        <EditText
+            android:id="@+id/edit_item_price"
+            style="@style/editor_style"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:singleLine="true" />
+
+        <!-- image upload -->
+        <TextView
+            android:id="@+id/edit_item_image_upload_tv"
+            style="@style/editor_style"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/editor_image_tv" />
+
+        <ImageView
+            android:id="@+id/edit_item_image_upload_iv"
+            android:layout_width="88dp"
+            android:layout_height="88dp"
+            android:src="@drawable/no_image" />
+
+        <TextView
+            style="@style/editor_style"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:text="@string/editor_supplier_tv" />
+
+        <EditText
+            android:id="@+id/edit_supplier"
+            style="@style/editor_style"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:singleLine="true" />
+
+        <TextView
+            style="@style/editor_style"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/editor_supplier_email_tv" />
+
+        <EditText
+            android:id="@+id/edit_supplier_email"
+            style="@style/editor_style"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:singleLine="true" />
+
+        <Button
+            android:id="@+id/edit_order_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/editor_margin_tv"
+            android:text="@string/editor_order_btn" />
+    </LinearLayout>
+</ScrollView>

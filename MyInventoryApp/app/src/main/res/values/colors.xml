@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FF9800</color>
+    <color name="colorPrimaryDark">#FF9800</color>
+    <color name="colorAccent">#FF4081</color>
+    <!-- Color for the background for the list item -->
+    <color name="colorStart">#41b7b7</color>
+    <color name="colorTop">#191B30</color>
+    <color name="colorMiddle">#191B30</color>
+    <color name="colorBottom">#043D50</color>
+    <color name="image_bg">#03fb6a</color>
+
+</resources>
